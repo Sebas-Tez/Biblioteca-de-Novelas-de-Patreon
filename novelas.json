@@ -1,4 +1,27 @@
-  ,{
+[
+  {
+    "id": 1,
+    "titulo": "Viajando en el Universo Estelar",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "En emisión",
+    "capitulos": 57,
+    "descripcion": "Un ingeniero de una estación abandonada despierta un sistema prohibido que promete el poder de un imperio caído.",
+    "sinopsis": "Cuando Kael activa por error un núcleo estelar sellado durante siglos, se convierte en el objetivo de tres facciones galácticas que codician su poder. Entre alianzas rotas, imperios en decadencia y un sistema que parece tener voluntad propia, deberá decidir si domina esa fuerza o deja que lo consuma.",
+    "cover": "img/covers/universo-estelar.svg",
+    "banner": "img/banners/universo-estelar.svg",
+    "patreon": "https://www.patreon.com/cw/ElEspiaNarrador",
+    "fecha": "2026-07-15",
+    "destacada": true,
+    "etiquetas": [
+      "Espacio",
+      "Imperios",
+      "Sistema",
+      "Guerra galáctica"
+    ],
+    "adulto": false
+
+,{
     "id": 1,
     "titulo": "Viajando en las estrellas",
     "autor": "El Espía Narrador",
@@ -15,3 +38,4 @@
     "adulto": false,
     "etiquetas": ["Ciencia Ficción", "Mundo Paralelo", "Tecnologia"]
   }
+]
