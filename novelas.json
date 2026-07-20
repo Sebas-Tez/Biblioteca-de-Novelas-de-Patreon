@@ -1,25 +1,20 @@
 [
-  {
+    {
     "id": 1,
-    "titulo": "Viajando en el Universo Estelar",
+    "titulo": "Viajando en las estrellas",
     "autor": "El Espía Narrador",
     "genero": "Ciencia ficción",
     "estado": "En emisión",
-    "capitulos": 57,
-    "descripcion": "Un ingeniero de una estación abandonada despierta un sistema prohibido que promete el poder de un imperio caído.",
-    "sinopsis": "Cuando Kael activa por error un núcleo estelar sellado durante siglos, se convierte en el objetivo de tres facciones galácticas que codician su poder. Entre alianzas rotas, imperios en decadencia y un sistema que parece tener voluntad propia, deberá decidir si domina esa fuerza o deja que lo consuma.",
-    "cover": "img/covers/universo-estelar.svg",
-    "banner": "img/banners/universo-estelar.svg",
-    "patreon": "https://www.patreon.com/cw/ElEspiaNarrador",
-    "fecha": "2026-07-15",
-    "destacada": true,
-    "etiquetas": [
-      "Espacio",
-      "Imperios",
-      "Sistema",
-      "Guerra galáctica"
-    ],
-    "adulto": false
+    "capitulos": 100,
+    "descripcion": "Tras perder su hogar, la humanidad se aventura por un universo repleto de civilizaciones, secretos y peligros, en busca de un nuevo lugar donde sobrevivir y de las respuestas ocultas entre las estrellas.",
+    "sinopsis": "El vasto universo, con sus estrellas brillantes, es profundo y misterioso.  Cuando la vida inteligente miró las estrellas por primera vez, la curiosidad profunda en la sabiduría ya había zarpado hacia el conocimiento.  Estrellas infinitas e innumerables civilizaciones, ¿dónde están y por qué compiten por alejarse?  ¿Qué tesoros hay en esa galaxia lejana? ¿O qué secretos se esconden en el espacio oscuro? ¿O es simplemente para encontrar ese rayo de esperanza?  ¿Adónde deberían ir los humanos que han perdido sus hogares?...",
+    "cover": "img/covers/logo.png",
+    "banner": "img/banners/banner.png",
+    "patreon": "https://www.patreon.com/collection/2279403?view=expanded",
+    "fecha": "2026-07-20",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Ciencia Ficción", "Mundo Paralelo", "Tecnologia"]
   },
   {
     "id": 2,
