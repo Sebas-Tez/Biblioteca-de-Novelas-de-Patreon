@@ -323,19 +323,6 @@ body::before{
   font-weight: 500;
 }
 
-/* Chip especial para la sección +18: se distingue en rojo incluso
-   sin estar activo, para que quede claro que es contenido sensible. */
-.chip--nsfw{
-  color: #ff8a8a;
-  border-color: rgba(255,90,90,.35);
-}
-.chip--nsfw:hover{ color: #ffb3b3; border-color: rgba(255,90,90,.6); }
-.chip--nsfw.is-active{
-  background: #d43b3b;
-  border-color: #d43b3b;
-  color: #1a0a0a;
-}
-
 .controls__sort{
   display: flex;
   align-items: center;
@@ -460,22 +447,6 @@ body::before{
 .card__estado[data-estado="En emisión"]{ color: #7fe0a8; border-color: rgba(127,224,168,.35); }
 .card__estado[data-estado="Completada"]{ color: var(--gold-light); border-color: var(--border-strong); }
 
-/* Insignia +18 sobre la portada, debajo de la etiqueta de estado */
-.card__nsfw{
-  position: absolute;
-  top: 40px;
-  right: 10px;
-  font-family: var(--font-mono);
-  font-size: 10.5px;
-  font-weight: 600;
-  letter-spacing: .5px;
-  padding: 3px 9px;
-  border-radius: 999px;
-  background: rgba(212,59,59,.85);
-  border: 1px solid rgba(255,120,120,.5);
-  color: #fff0f0;
-}
-
 /* Panel de sinopsis que aparece al hover, dentro de la portada */
 .card__overlay{
   position: absolute;
@@ -545,6 +516,31 @@ body::before{
   -webkit-box-orient: vertical;
   overflow: hidden;
   min-height: 40px;
+}
+
+.card__adulto{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: .5px;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: rgba(178,34,34,.85);
+  border: 1px solid rgba(255,138,128,.6);
+  color: #fff;
+}
+
+.chip--18{
+  color: #ff8a80;
+  border-color: rgba(255,138,128,.4);
+}
+.chip--18.is-active{
+  background: #b22222;
+  border-color: #b22222;
+  color: #fff;
 }
 
 /* ===================== ESTADO VACÍO ===================== */
@@ -693,22 +689,6 @@ body::before{
   line-height: 1.2;
 }
 
-/* Insignia +18 junto al título, dentro del modal de detalle */
-.modal__nsfw{
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px;
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .5px;
-  padding: 2px 10px;
-  border-radius: 999px;
-  background: rgba(212,59,59,.85);
-  border: 1px solid rgba(255,120,120,.5);
-  color: #fff0f0;
-}
-
 .modal__autor{
   color: var(--text-dim);
   font-size: 13.5px;
@@ -806,64 +786,6 @@ body::before{
   .modal__panel{ max-height: 92vh; }
   .modal__body{ padding: 56px 18px 24px; }
   .modal__cover{ left: 18px; width: 84px; bottom: -38px; }
-}
-
-/* ===================== VERIFICACIÓN DE EDAD (+18) ===================== */
-.age-gate{
-  position: fixed;
-  inset: 0;
-  z-index: 200; /* por encima del modal de detalle, por si acaso */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-}
-.age-gate[hidden]{ display: none; }
-
-.age-gate__backdrop{
-  position: absolute;
-  inset: 0;
-  background: rgba(6,6,6,.88);
-  backdrop-filter: blur(4px);
-  animation: fadeIn .2s var(--ease);
-}
-
-.age-gate__panel{
-  position: relative;
-  width: 100%;
-  max-width: 420px;
-  background: var(--panel);
-  border: 1px solid rgba(255,90,90,.35);
-  border-radius: 18px;
-  padding: 32px 28px;
-  text-align: center;
-  animation: modalIn .28s var(--ease);
-}
-
-.age-gate__icono{
-  font-size: 34px;
-  margin: 0 0 10px;
-}
-
-.age-gate__titulo{
-  font-family: var(--font-display);
-  font-size: 19px;
-  font-weight: 600;
-  margin: 0 0 10px;
-  color: #ffb3b3;
-}
-
-.age-gate__texto{
-  font-size: 13.5px;
-  color: var(--text-dim);
-  line-height: 1.5;
-  margin: 0 0 22px;
-}
-
-.age-gate__acciones{
-  display: flex;
-  gap: 12px;
-  justify-content: center;
 }
 
 /* Respeta preferencia de reducción de movimiento */

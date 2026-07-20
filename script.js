@@ -29,13 +29,6 @@
   const modalBackdropEl = document.getElementById("modalBackdrop");
   const modalCloseEl = document.getElementById("modalClose");
 
-  /** Verificación de edad para la sección +18 */
-  const ageGateEl = document.getElementById("ageGate");
-  const ageGateBackdropEl = document.getElementById("ageGateBackdrop");
-  const ageGateConfirmarEl = document.getElementById("ageGateConfirmar");
-  const ageGateSalirEl = document.getElementById("ageGateSalir");
-  const ADULT_CONFIRM_KEY = "espia_18_confirmado";
-
   /* --------------------------------------------------
      CARGA DE DATOS
      -------------------------------------------------- */
@@ -83,8 +76,8 @@
   function obtenerNovelasVisibles() {
     let lista = novelas.slice();
 
-    // Filtro por género o estado, o por la categoría especial +18
-    if (filtroActivo === "adulto18") {
+    // Filtro por género, estado, o contenido +18
+    if (filtroActivo === "adulto") {
       lista = lista.filter((n) => n.adulto === true);
     } else if (filtroActivo !== "todos") {
       lista = lista.filter(
@@ -138,7 +131,7 @@
         <img class="card__cover" src="${escapeHtml(novela.cover)}" alt="Portada de ${escapeHtml(novela.titulo)}" loading="lazy">
         <span class="card__tab">${novela.capitulos} caps.</span>
         <span class="card__estado" data-estado="${escapeHtml(novela.estado)}">${escapeHtml(novela.estado)}</span>
-        ${novela.adulto ? '<span class="card__nsfw">+18</span>' : ""}
+        ${novela.adulto ? '<span class="card__adulto">+18</span>' : ""}
 
         <div class="card__overlay">
           <p class="card__overlay-sinopsis">${escapeHtml(novela.sinopsis || novela.descripcion || "")}</p>
@@ -238,24 +231,12 @@
     document.getElementById("modalBanner").alt = `Escena de ${novela.titulo}`;
     document.getElementById("modalCover").src = novela.cover;
     document.getElementById("modalCover").alt = `Portada de ${novela.titulo}`;
-    document.getElementById("modalGenero").textContent = novela.genero;
+    document.getElementById("modalGenero").textContent = novela.genero + (novela.adulto ? " · +18" : "");
     document.getElementById("modalTitulo").textContent = novela.titulo;
     document.getElementById("modalAutor").textContent = `Por ${novela.autor}`;
     document.getElementById("modalEstado").textContent = novela.estado;
     document.getElementById("modalCapitulos").textContent = `${novela.capitulos} capítulos`;
     document.getElementById("modalSinopsis").textContent = novela.sinopsis || novela.descripcion || "";
-
-    // Insignia +18 dentro del modal (se agrega/quita según corresponda,
-    // ya que el modal se reutiliza para todas las novelas).
-    const modalTituloEl = document.getElementById("modalTitulo");
-    const nsfwExistente = modalTituloEl.querySelector(".modal__nsfw");
-    if (nsfwExistente) nsfwExistente.remove();
-    if (novela.adulto) {
-      const nsfwBadge = document.createElement("span");
-      nsfwBadge.className = "modal__nsfw";
-      nsfwBadge.textContent = "+18";
-      modalTituloEl.appendChild(nsfwBadge);
-    }
 
     const etiquetasEl = document.getElementById("modalEtiquetas");
     etiquetasEl.innerHTML = "";
@@ -274,51 +255,6 @@
 
   function cerrarModal() {
     modalEl.hidden = true;
-    document.body.style.overflow = "";
-  }
-
-  /* --------------------------------------------------
-     VERIFICACIÓN DE EDAD (sección +18)
-     Solo se pide la primera vez que alguien intenta ver el
-     filtro +18 en este navegador; queda guardado en localStorage
-     para no volver a preguntar en visitas futuras.
-     -------------------------------------------------- */
-  function tieneConfirmacion18() {
-    try {
-      return localStorage.getItem(ADULT_CONFIRM_KEY) === "true";
-    } catch (e) {
-      // Si el navegador bloquea localStorage (modo privado estricto,
-      // por ejemplo), se pide confirmación cada vez en vez de fallar.
-      return false;
-    }
-  }
-
-  function guardarConfirmacion18() {
-    try {
-      localStorage.setItem(ADULT_CONFIRM_KEY, "true");
-    } catch (e) {
-      /* Si no se puede guardar, no pasa nada grave: solo volverá a
-         preguntar la próxima vez. */
-    }
-  }
-
-  function abrirAgeGate(onConfirmar) {
-    ageGateEl.hidden = false;
-    document.body.style.overflow = "hidden";
-
-    // Se reasignan los listeners cada vez para no acumular varios
-    // "onConfirmar" de intentos anteriores.
-    ageGateConfirmarEl.onclick = () => {
-      guardarConfirmacion18();
-      cerrarAgeGate();
-      onConfirmar();
-    };
-    ageGateSalirEl.onclick = cerrarAgeGate;
-    ageGateBackdropEl.onclick = cerrarAgeGate;
-  }
-
-  function cerrarAgeGate() {
-    ageGateEl.hidden = true;
     document.body.style.overflow = "";
   }
 
@@ -372,21 +308,10 @@
     const chip = e.target.closest(".chip");
     if (!chip) return;
 
-    const aplicarEsteFiltro = () => {
-      filtrosEl.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
-      chip.classList.add("is-active");
-      filtroActivo = chip.dataset.filter;
-      render();
-    };
-
-    // El filtro +18 pide confirmar la edad la primera vez (por
-    // navegador); las demás veces entra directo.
-    if (chip.dataset.filter === "adulto18" && !tieneConfirmacion18()) {
-      abrirAgeGate(aplicarEsteFiltro);
-      return;
-    }
-
-    aplicarEsteFiltro();
+    filtrosEl.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
+    chip.classList.add("is-active");
+    filtroActivo = chip.dataset.filter;
+    render();
   });
 
   // Orden

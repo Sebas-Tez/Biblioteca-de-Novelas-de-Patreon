@@ -37,15 +37,17 @@ No se toca el HTML. Basta con abrir `novelas.json` y agregar un nuevo objeto al 
   "patreon": "https://www.patreon.com/cw/ElEspiaNarrador/collections/tu-coleccion",
   "fecha": "2026-07-19",
   "destacada": false,
+  "adulto": false,
   "etiquetas": ["Etiqueta 1", "Etiqueta 2"]
 }
 ```
 
 Campos importantes:
 
-- **`genero`**: debe coincidir exactamente con uno de los filtros existentes (`Ciencia ficción`, `Fantasía`, `Apocalipsis`, `Cultivación`, `Romance`, `Acción`, `Aventura`). Si usas un género nuevo, agrega también un botón en la sección de filtros de `index.html` (es la única vez que tocarías el HTML).
+- **`genero`**: debe coincidir exactamente con uno de los filtros existentes (`Ciencia ficción`, `Fantasía`, `Apocalipsis`, `Cultivación`, `Romance`, `Acción`). Si usas un género nuevo, agrega también un botón en la sección de filtros de `index.html` (es la única vez que tocarías el HTML).
 - **`estado`**: usa `"En emisión"` o `"Completada"` tal cual, ya que los filtros de estado buscan ese texto exacto.
 - **`fecha`**: formato `AAAA-MM-DD`, se usa para el orden "Más recientes".
+- **`adulto`**: `true` o `false`. Si es `true`, la tarjeta muestra una insignia roja "+18" y la novela aparece al usar el filtro "+18". Déjalo en `false` si no aplica.
 
 En cuanto guardes el archivo y recargues la página, la novela aparecerá automáticamente en el catálogo, en el buscador, en los filtros y en el orden. El sitio está preparado para manejar cientos o miles de entradas sin ningún cambio adicional.
 

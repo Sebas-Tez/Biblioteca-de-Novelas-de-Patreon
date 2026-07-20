@@ -73,10 +73,9 @@
       <button class="chip" data-filter="Cultivación" type="button">Cultivación</button>
       <button class="chip" data-filter="Romance" type="button">Romance</button>
       <button class="chip" data-filter="Acción" type="button">Acción</button>
-      <button class="chip" data-filter="Aventura" type="button">Aventura</button>
       <button class="chip" data-filter="Completada" type="button">Completadas</button>
       <button class="chip" data-filter="En emisión" type="button">En emisión</button>
-      <button class="chip chip--nsfw" data-filter="adulto18" type="button">🔞 +18</button>
+      <button class="chip chip--18" data-filter="adulto" type="button">+18</button>
     </div>
 
     <label class="controls__sort">
@@ -138,20 +137,6 @@
       <div class="modal__etiquetas" id="modalEtiquetas"></div>
 
       <a href="#" id="modalPatreon" target="_blank" rel="noopener" class="btn btn--gold btn--wide">Escuchar en Patreon</a>
-    </div>
-  </div>
-</div>
-
-<!-- ===================== VERIFICACIÓN DE EDAD (solo al filtrar +18) ===================== -->
-<div class="age-gate" id="ageGate" hidden>
-  <div class="age-gate__backdrop" id="ageGateBackdrop"></div>
-  <div class="age-gate__panel" role="dialog" aria-modal="true" aria-labelledby="ageGateTitulo">
-    <p class="age-gate__icono" aria-hidden="true">🔞</p>
-    <h2 class="age-gate__titulo" id="ageGateTitulo">Contenido para mayores de 18 años</h2>
-    <p class="age-gate__texto">Esta sección incluye audionovelas con temática y lenguaje para adultos. Al continuar confirmas que tienes 18 años o más.</p>
-    <div class="age-gate__acciones">
-      <button class="btn btn--ghost" id="ageGateSalir" type="button">No, salir</button>
-      <button class="btn btn--gold" id="ageGateConfirmar" type="button">Sí, tengo 18+</button>
     </div>
   </div>
 </div>
