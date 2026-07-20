@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" width="220" height="60">
+  <circle cx="26" cy="30" r="20" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <circle cx="26" cy="30" r="7" fill="#D4AF37"/>
+  <line x1="14" y1="30" x2="4" y2="30" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="38" y1="30" x2="48" y2="30" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="26" y1="18" x2="26" y2="8" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="26" y1="42" x2="26" y2="52" stroke="#D4AF37" stroke-width="2"/>
+  <text x="58" y="27" font-family="Georgia, serif" font-size="16" letter-spacing="2" fill="#F4F4F4" font-weight="bold">EL ESPIA</text>
+  <text x="58" y="45" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="#D4AF37" font-weight="bold">NARRADOR</text>
+</svg>

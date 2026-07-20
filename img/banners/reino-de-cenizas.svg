@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" width="1600" height="500">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#B5502E" stop-opacity="0.45"/>
+<stop offset="1" stop-color="#0b0b0b" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<rect width="1600" height="500" fill="#141414"/>
+<rect width="1600" height="500" fill="url(#bg)"/>
+<circle cx="1250" cy="250" r="150" fill="none" stroke="#B5502E" stroke-opacity="0.6" stroke-width="2"/>
+<foreignObject x="80" y="200" width="900" height="150">
+<div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; color:#f2f2f2; font-size:44px; font-weight:700; text-transform:uppercase; letter-spacing:1px;">El Reino de Cenizas</div>
+</foreignObject>
+</svg>
