@@ -33,6 +33,25 @@
     "adulto": false,
     "etiquetas": ["Cultivación", "Dedo dorado", "Mundo paralelo"]
   },
+
+     {
+    "id": 4,
+    "titulo": "Mi Palabra es Invencible",
+    "autor": "El Espía Narrador",
+    "genero": "Acción",
+    "estado": "En emisión",
+    "capitulos": 300,
+    "descripcion": "",
+    "sinopsis": "La humanidad se encuentra atrapada en un conflicto donde solo los más fuertes logran sobrevivir.  Cada combatiente despierta con un atributo especial que influye tanto en sus habilidades como en la forma en que debe enfrentar el mundo. Cuanto más fiel permanezca a su propia naturaleza, mayor será el poder que podrá desarrollar. Pero perder esa esencia tiene un precio que pocos están dispuestos a pagar.  En una realidad donde cada enfrentamiento puede decidir el futuro de la humanidad, la fuerza no lo es todo. Saber adaptarse, ocultar las propias intenciones y desempeñar el papel adecuado puede marcar la diferencia entre la vida y la muerte.  Solo quienes logren dominar tanto su mente como sus habilidades tendrán la oportunidad de llegar hasta el final.  Capítulo 1: Mantenimiento y traición.",
+    "cover": "img/covers/perfilid4.png",
+    "banner": "img/banners/bannerid4.png",
+    "patreon": "https://www.patreon.com/collection/2284849?view=expanded",
+    "fecha": "2026-07-22",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Guerra Interestelar", "Mundo Paralelo", "Psicológico"]
+  },
+    
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
