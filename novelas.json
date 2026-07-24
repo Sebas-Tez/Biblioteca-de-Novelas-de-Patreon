@@ -51,6 +51,40 @@
     "adulto": false,
     "etiquetas": ["Guerra Interestelar", "Mundo Paralelo", "Psicológico"]
   },
+      {
+    "id": 5,
+    "titulo": "Detrás del Espejo",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "En emisión",
+    "capitulos": 300,
+    "descripcion": "",
+    "sinopsis": "Solo y extraordinario, invencible en la realidad.  Wang He, de 19 años, era un estudiante universitario normal y corriente.  Un día descubrió que podía tocar el espejo y entrar en el mundo que había dentro de él.  Todo aquí está al revés de la realidad; Hay criaturas extrañas y aterradoras que, al matarlas, otorgan al usuario su poder y habilidades sobrenaturales.  Lo más importante es que todo lo que hay en el mundo de los espejos puede hacerse realidad.",
+    "cover": "img/covers/perfilid5.png",
+    "banner": "img/banners/bannerid5.png",
+    "patreon": "",
+    "fecha": "2026-07-23",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Urbana", "Fantasía", "Aventura", "Acción"]
+  },
+      {
+    "id": 6,
+    "titulo": "Tengo un Simulado Talentoso",
+    "autor": "El Espía Narrador",
+    "genero": "Cultivación",
+    "estado": "Completada",
+    "capitulos": 479,
+    "descripcion": "",
+    "sinopsis": "Jiang Yifeng transmigra al hijo mayor de la empresa comercial de la familia Jiang en el Gran Reino You. Inicialmente, cree que ha entrado en una sociedad antigua donde puede pasar su vida disfrutando del entretenimiento. Sin embargo, cinco años después de su transmigración, el simulador se activa. Cada simulación le permite dibujar diferentes talentos al azar. Experto en fitness: los resultados de tu entrenamiento físico están más allá de lo común. Eye of Insight: Puedes ver información parcial sobre todos. Extremo uno por uno: la persona que te mate morirá simultáneamente contigo. Durante su primera simulación, Jiang Yifeng descubre que este mundo no es lo que pensaba: tiene cultivadores. Además, en poco más de una década, estos cultivadores vendrán a destruir a su familia. ¡Después de esta revelación, Jiang Yifeng comienza a simular continuamente para su autoconservación! A través de simulaciones, sigue explorando las verdades de este mundo y esforzándose por mejorar su fuerza. En realidad, continúa con su estilo de vida despreocupado. Tras numerosas simulaciones, descubre que el lugar que habita no es más que una zona acordonada, parecida a una prisión. En este lugar, la gente tiene prohibido cultivar o buscar la inmortalidad. De lo contrario, serán perseguidos por una organización llamada \"Puerta de Llegada Inmortal\". Este descubrimiento hace que Jiang Yifeng se sienta aún menos seguro, por lo que trabaja más duro en simular el intercambio de talentos y cultivo... Mientras simula repetidamente, Jiang Yifeng descubre que las verdades de este mundo son mucho más complejas de lo que imaginaba. Incluso él, junto con quienes lo rodean, parecen tener orígenes extraordinarios. Y todo esto se va desarrollando poco a poco dentro de las simulaciones. Cuando Jiang Yifeng finalmente se vuelve invencible, la verdad que descubre es...",
+    "cover": "img/covers/perfilid6.png",
+    "banner": "img/banners/bannerid6.png",
+    "patreon": "https://www.patreon.com/collection/2287380?view=expanded",
+    "fecha": "2026-07-23",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Cultivación", "Mundo paralelo", "Simulación"]
+  },
     
     {
     "id": 2,
