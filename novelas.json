@@ -85,7 +85,40 @@
     "adulto": false,
     "etiquetas": ["Cultivación", "Mundo paralelo", "Simulación"]
   },
-    
+      {
+    "id": 7,
+    "titulo": "Soy un Viltrumita en el Universo de The Boys",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "En emisión",
+    "capitulos": 60,
+    "descripcion": "[¡Timbre! Bienvenido al universo de The Boys.] Linaje de Viltrumite – Despertado Nivel de línea de sangre: Empleado Viltrumite Lv.1 (Técnicamente un bebé) - Fuerza: 8 toneladas - Velocidad: subsónica - Defensa: Inmune a las armas convencionales - Vuelo: Desbloqueado - Supervivencia espacial: 30 minutos - Bio-Campo: Primario (Protección pasiva del cuerpo y la ropa - Estado Genético: Perfectamente estable. Inmune a todas las enfermedades, virus y mierdas genéticas que este patético mundo tiene para ofrecer. - Puntos de habilidad: 0/10.000 - Fuentes puntuales: emociones públicas (positivas/negativas), emociones de personajes clave (positivas/negativas) Ruta de actualización: Lv.2 Soldado regular → Lv.3 Guerrero de élite → ... → Lv.6 Realeza de sangre pura \"Interesante ~\" A-Train era una mancha azul, lista para convertir a la novia de Hughie en pasta roja en el pavimento. Me paré frente a él, una sonrisa perezosa se extendió por mi rostro mientras el mundo se desaceleraba.",
+    "sinopsis": "",
+    "cover": "img/covers/perfilid7.png",
+    "banner": "img/banners/bannerid7.png",
+    "patreon": "https://www.patreon.com/collection/2288435?view=expanded",
+    "fecha": "2026-07-24",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Universo de The Boys", "Sistema", "Acción", "Comedia"]
+  },
+      {
+    "id": 8,
+    "titulo": "Tengo la Death Note, Soy el Divino Emperador de la Muerte",
+    "autor": "El Espía Narrador",
+    "genero": "Cultivación",
+    "estado": "En emisión",
+    "capitulos": 300,
+    "descripcion": "",
+    "sinopsis": "TianLong nació huérfano. Llevó su vida en la miseria y, de la nada, se topó con un Death Note, matando a su único enemigo que era la causa de su miseria. Después de una serie de planificación y acción, logró cruzar mundos junto con su Death Note. No tiene apegos con respecto a la Tierra. No tiene un gran sentido de la justicia, simplemente sigue su corazón y hace lo que cree que es correcto. Únase a Tian Long en su viaje para convertirse en el Divino Emperador de la Muerte en el Mundo de Cultivo.",
+    "cover": "img/covers/perfilid8.png",
+    "banner": "img/banners/bannerid8.png",
+    "patreon": "https://www.patreon.com/collection/2288428?view=expanded",
+    "fecha": "2026-07-24",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Cultivación", "Transmigración", "Débil a Fuerte", "R-18", "Romance"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
