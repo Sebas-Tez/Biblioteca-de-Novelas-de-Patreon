@@ -137,6 +137,23 @@
     "etiquetas": ["R-18", "Protagonista Oscuro", "Mundo Paralelo"]
   },
       {
+    "id": 10,
+    "titulo": "Puedo Retroceder 1 Minuto en el Tiempo",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "En emisión",
+    "capitulos": 400,
+    "descripcion": "",
+    "sinopsis": "Un accidente le permitió tener una habilidad especial para retroceder el tiempo hasta 1 minuto. Cuando decía cosas equivocadas frente a su líder, podía regresar 1 minuto antes para corregir lo que dijo. Durante el juego de piedra de jade y no había jade en el interior, retrocede en el tiempo para elegir otra piedra. Cuando la mujer que le gusta sufre un accidente, puede regresar 1 minuto antes para salvarla... Comienza el ascenso de un pequeño alevín en las filas del servicio gubernamental...",
+    "cover": "img/covers/perfilid10.png",
+    "banner": "img/banners/bannerid10.png",
+    "patreon": "https://www.patreon.com/collection/2295613?view=expanded",
+    "fecha": "2026-07-28",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Superpoder", "Urbano", "Asención de estatus"]
+  },
+      {
     "id": 11,
     "titulo": "El Sistema me ha Traicionado",
     "autor": "El Espía Narrador",
