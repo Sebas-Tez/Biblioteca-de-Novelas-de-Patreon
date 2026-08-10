@@ -101,6 +101,21 @@ body::before{
 
 .btn--wide{ width: 100%; justify-content: center; padding: 13px 18px; font-size: 15px; }
 
+/* ===================== MOSTRAR MÁS ===================== */
+.cargar-mas{
+  max-width: 1280px;
+  margin: 0 auto 80px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+}
+.btn--mostrar-mas{
+  padding: 12px 32px;
+  font-size: 13px;
+  letter-spacing: .5px;
+  font-family: var(--font-mono);
+}
+
 /* ===================== HEADER ===================== */
 .header{
   position: sticky;
@@ -363,7 +378,7 @@ body::before{
 /* ===================== CATÁLOGO / GRID ===================== */
 .catalogo{
   max-width: 1280px;
-  margin: 12px auto 80px;
+  margin: 12px auto 32px;
   padding: 12px 24px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));

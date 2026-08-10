@@ -15,6 +15,10 @@
   let ordenActivo = "recientes";
   let terminoBusqueda = "";
 
+  /** Paginación: cuántas tarjetas se muestran, y cuántas se suman por clic */
+  const NOVELAS_POR_PAGINA = 10;
+  let cantidadVisible = NOVELAS_POR_PAGINA;
+
   /** Referencias al DOM */
   const catalogoEl = document.getElementById("catalogo");
   const emptyEl = document.getElementById("empty");
@@ -24,6 +28,7 @@
   const buscadorDropdownEl = document.getElementById("buscadorDropdown");
   const filtrosEl = document.getElementById("filtros");
   const ordenEl = document.getElementById("orden");
+  const mostrarMasEl = document.getElementById("mostrarMas");
 
   const modalEl = document.getElementById("modal");
   const modalBackdropEl = document.getElementById("modalBackdrop");
@@ -37,6 +42,15 @@
       const res = await fetch("novelas.json", { cache: "no-store" });
       if (!res.ok) throw new Error("No se pudo leer novelas.json (" + res.status + ")");
       novelas = await res.json();
+
+      // Guarda la posición original de cada novela dentro del archivo.
+      // Esto sirve como desempate cuando dos novelas comparten la misma
+      // fecha: la que esté más abajo en novelas.json (la más nueva que
+      // agregaste) se mostrará primero dentro de ese mismo día.
+      novelas.forEach((n, idx) => {
+        n._ordenCarga = idx;
+      });
+
       render();
     } catch (err) {
       console.error("Error cargando el catálogo:", err);
@@ -109,7 +123,12 @@
         break;
       case "recientes":
       default:
-        lista.sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+        lista.sort((a, b) => {
+          const diferenciaFecha = new Date(b.fecha) - new Date(a.fecha);
+          if (diferenciaFecha !== 0) return diferenciaFecha;
+          // Misma fecha: gana la que se agregó después en novelas.json
+          return (b._ordenCarga || 0) - (a._ordenCarga || 0);
+        });
         break;
     }
 
@@ -159,17 +178,34 @@
     if (visibles.length === 0) {
       emptyEl.hidden = false;
       resultadosInfoEl.textContent = "";
+      mostrarMasEl.hidden = true;
       return;
     }
 
     emptyEl.hidden = true;
 
+    // Solo se pintan las primeras "cantidadVisible" tarjetas, así las
+    // imágenes no se cargan todas de golpe al abrir la página.
+    const paginaActual = visibles.slice(0, cantidadVisible);
+
     const fragment = document.createDocumentFragment();
-    visibles.forEach((novela) => fragment.appendChild(crearTarjeta(novela)));
+    paginaActual.forEach((novela) => fragment.appendChild(crearTarjeta(novela)));
     catalogoEl.appendChild(fragment);
 
     const plural = visibles.length === 1 ? "novela" : "novelas";
-    resultadosInfoEl.textContent = `${visibles.length} ${plural} encontradas`;
+    resultadosInfoEl.textContent =
+      paginaActual.length < visibles.length
+        ? `Mostrando ${paginaActual.length} de ${visibles.length} ${plural}`
+        : `${visibles.length} ${plural} encontradas`;
+
+    mostrarMasEl.hidden = paginaActual.length >= visibles.length;
+  }
+
+  // Vuelve a empezar en la primera página (se usa cuando cambia el
+  // filtro, la búsqueda o el orden, para no dejar el botón "Mostrar más"
+  // en un estado raro)
+  function reiniciarPaginacion() {
+    cantidadVisible = NOVELAS_POR_PAGINA;
   }
 
   /* --------------------------------------------------
@@ -266,6 +302,7 @@
   buscadorEl.addEventListener("input", (e) => {
     terminoBusqueda = e.target.value;
     buscadorClearEl.hidden = terminoBusqueda.trim() === "";
+    reiniciarPaginacion();
     render();
     renderDropdown();
   });
@@ -279,6 +316,7 @@
     terminoBusqueda = "";
     buscadorClearEl.hidden = true;
     buscadorEl.focus();
+    reiniciarPaginacion();
     render();
     renderDropdown();
   });
@@ -311,12 +349,20 @@
     filtrosEl.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
     chip.classList.add("is-active");
     filtroActivo = chip.dataset.filter;
+    reiniciarPaginacion();
     render();
   });
 
   // Orden
   ordenEl.addEventListener("change", (e) => {
     ordenActivo = e.target.value;
+    reiniciarPaginacion();
+    render();
+  });
+
+  // Mostrar más: suma otra página de novelas sin reiniciar la actual
+  mostrarMasEl.addEventListener("click", () => {
+    cantidadVisible += NOVELAS_POR_PAGINA;
     render();
   });
 
@@ -350,6 +396,7 @@
     filtroActivo = "todos";
     filtrosEl.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
     filtrosEl.querySelector('[data-filter="todos"]').classList.add("is-active");
+    reiniciarPaginacion();
     render();
   });
 
