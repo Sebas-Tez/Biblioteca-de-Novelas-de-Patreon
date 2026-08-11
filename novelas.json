@@ -527,6 +527,23 @@
     "adulto": false,
     "etiquetas": ["Reencarnación", "Acción", "Romance", "Fantasía"]
   },
+      {
+    "id": 34,
+    "titulo": "Amor Puero Rechazado",
+    "autor": "El Espía Narrador",
+    "genero": "Romance",
+    "estado": "Completada",
+    "capitulos": 170,
+    "descripcion": "",
+    "sinopsis": "Lee Han-gyeol, un hombre de 27 años que ya cumplió con el servicio militar y está cansado de la vida adulta, encuentra consuelo en una novela web de romance juvenil. Su personaje favorito es Shin Eun-ha, la amiga de la infancia, dulce y de buen corazón, que según todos los indicios debería terminar con el protagonista.  Pero el autor decide lo contrario: el protagonista elige a otra heroína, dejando a Eun-ha con el corazón roto. Han-gyeol, indignado por este final injusto, desea con todas sus fuerzas poder entrar en esa historia para darle a Eun-ha el amor que merece.  Y entonces, ocurre lo imposible.  Han-gyeol despierta dentro del mundo de la novela, reencarnado como un estudiante de último año de secundaria llamado Lee Han-gyeol. Ahora tiene la oportunidad de cambiar el destino de la chica que siempre admiró. Pero hay un problema: el tiempo corre, y el curso original de la historia sigue su rumbo.  Decidido a conquistar el corazón de Shin Eun-ha y evitar que sufra, Han-gyeol deberá usar todo lo que sabe de la trama para acercarse a ella, ganarse su confianza y demostrarle que hay alguien dispuesto a amarla como se merece.",
+    "cover": "img/covers/perfilid34.png",
+    "banner": "img/banners/bannerid34.png",
+    "patreon": "https://www.patreon.com/collection/2320826?view=expanded",
+    "fecha": "2026-08-11",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Fantasía", "Romance", "Reencarnación"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
