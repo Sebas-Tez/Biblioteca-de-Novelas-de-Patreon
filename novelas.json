@@ -561,6 +561,23 @@
     "adulto": false,
     "etiquetas": ["Ciencia Ficción", "Acción", "Romance", "Aventuro", "Drama", "Maduro"]
   },
+      {
+    "id": 36,
+    "titulo": "Condenado Injustamente",
+    "autor": "El Espía Narrador",
+    "genero": "Acción",
+    "estado": "En emisión",
+    "capitulos": 750,
+    "descripcion": "",
+    "sinopsis": "De la noche a la mañana, el hijo predilecto del cielo quedó prisionero.  El estudiante universitario Lin Mo fue acusado de un crimen espantoso, su familia se separó y lo arrojaron a la prisión más vigilada.  En la interminable tortura y desesperación, despertó el [Sistema de Juicio del Guerrero de la Muerte].  Siempre que juzgues crímenes que no pueden ser castigados por la ley, podrás obtener recompensas e incluso resucitar a tu familia.  A partir de entonces nació un juez detrás de escena con una coartada perfecta.  Un magnate de los negocios murió repentina y misteriosamente, el emperador clandestino desapareció y la poderosa familia que una vez controló el mundo se desmoronó...  El sistema de seguridad pública enloqueció, pero nunca imaginó que el culpable era sólo un preso.  Las personas poderosas e influyentes, por miedo, querían eliminar indiscriminadamente a todos aquellos con motivos, pero Lin Mo fue el primero en ser eliminado.  ¿Quién podría dudar de un preso bajo vigilancia las 24 horas? Lin Mo miró a la cámara, su rostro inexpresivo como",
+    "cover": "img/covers/perfilid36.png",
+    "banner": "img/banners/bannerid36.png",
+    "patreon": "https://www.patreon.com/collection/2325802?view=expanded",
+    "fecha": "2026-08-14",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Sistema", "Acción", "Drama", "Misterio", "Sobrenatural"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
