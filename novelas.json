@@ -528,6 +528,23 @@
     "etiquetas": ["Reencarnación", "Acción", "Romance", "Fantasía"]
   },
       {
+    "id": 33,
+    "titulo": "De un Clan a Dinastia Divina",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "Completada",
+    "capitulos": 615,
+    "descripcion": "",
+    "sinopsis": "Karl se despertó y se encontró sorprendentemente reducido a un Dios Maligno lisiado confinado dentro de una botella. La familia Fischer, sin darse cuenta, se había convertido en sus miembros favoritos, compartiendo un destino conectado por sangre a lo largo de generaciones. Establecieron un clan secreto, se infiltraron en el estado, manipularon guerras, ascendieron la escalera del Panteón de Dios y lucharon por el honor y el futuro de la familia. Eran asesinos que acechaban en las sombras, queridos eruditos, estimados sacerdotes, poderosos duques y leyendas de epopeyas heroicas. Desde un crecimiento incipiente hasta un crecimiento robusto, el steampunk evolucionó; el Reino de los Espíritus descendió a través de los sueños; Las brujas y los dioses antiguos avanzaron y la gente escuchó los susurros perdidos en sus oídos. Eran tanto los creadores como los finales de las historias. Generación tras generación, en una sucesión continua, avanzaron. “Pasa por encima de mi cadáver y continúa”, dijo.",
+    "cover": "img/covers/perfilid33.png",
+    "banner": "img/banners/bannerid33.png",
+    "patreon": "https://www.patreon.com/collection/2318694?view=expanded",
+    "fecha": "2026-08-10",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Comedia", "Drama Fantasía", "Romance"]
+  },
+      {
     "id": 34,
     "titulo": "Amor Puero Rechazado",
     "autor": "El Espía Narrador",
@@ -577,6 +594,23 @@
     "destacada": false,
     "adulto": false,
     "etiquetas": ["Sistema", "Acción", "Drama", "Misterio", "Sobrenatural"]
+  },
+      {
+    "id": 37,
+    "titulo": "La Vida en el Internado",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "En emisión",
+    "capitulos": 900,
+    "descripcion": "",
+    "sinopsis": "Qin Qi es un jugador que vive con su madrastra y su hermanastra y también atrae a muchas chicas en la escuela.  \"Me arrodillé ante ti, ¿ahora puedes borrar las fotos?\"  \"¡Vamos, si lo haces bien, borraré las foto",
+    "cover": "img/covers/perfilid37.png",
+    "banner": "img/banners/bannerid37.png",
+    "patreon": "https://www.patreon.com/collection/2331111?view=expanded",
+    "fecha": "2026-08-17",
+    "destacada": false,
+    "adulto": true,
+    "etiquetas": ["R-18", "Drama", "Adulto", "Romance"]
   },
     {
     "id": 2,
