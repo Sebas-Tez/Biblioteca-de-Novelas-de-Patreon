@@ -612,6 +612,24 @@
     "adulto": true,
     "etiquetas": ["R-18", "Drama", "Adulto", "Romance"]
   },
+      {
+    "id": 38,
+    "titulo": "Recoger Talentos en el Campo de Batalla Interestelar",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "En emisión",
+    "capitulos": 600,
+    "descripcion": "",
+    "sinopsis": "Este es el décimo milenio de la marcha del Imperio hacia las estrellas, y las estrellas han sido testigos del auge y la caída de una generación de civilizaciones.  Las llamas de la guerra alienígena se extendieron hasta la frontera, los secuaces de dioses malignos se escondieron en el mundo, los psíquicos provocaron una tormenta en el mar estrellado, y el linaje y la tecnología impulsaron el desarrollo de la civilización.  Qin Tian viajó a través del tiempo y el espacio, solo para descubrir que se había convertido en un clon carne de cañón en el campo de batalla interestelar y que se dirigiría al campo de batalla en pocos días.  \"Que no cunda el pánico, ¿cómo es posible que un viajero del tiempo no tenga un don especial para el arte de la magia?\"  Toca el cadáver del orco, recoge los talentos.  [Fuerza avanzada] [Recuperación rápida] [Agilidad felina]  Toca el cadáver Zerg, recoge los talentos -  [Vuelo] [Invisibilidad] [Voluntad del Rey Insecto]  Toca el cadáver psíquico, recoge los talentos.  [Linaje del Dragón del Trueno] [Cuerpo de Espada Dominante] [Comprensión Suprema]  Apoyándose en los talentos que había adquirido, Qin Tian escribió su propio capítulo heroico en esta turbulenta era del mar estrellado.",
+    "cover": "img/covers/perfilid38.png",
+    "banner": "img/banners/bannerid38.png",
+    "patreon": "https://www.patreon.com/collection/2335663?view=expanded",
+    "fecha": "2026-08-19",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Novela de Acción", "Sistema", "Fantasía"]
+  },
+    
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
