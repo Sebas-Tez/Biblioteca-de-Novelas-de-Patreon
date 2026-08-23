@@ -629,7 +629,23 @@
     "adulto": false,
     "etiquetas": ["Novela de Acción", "Sistema", "Fantasía"]
   },
-    
+      {
+    "id": 39,
+    "titulo": "Notas Extravagantes",
+    "autor": "El Espía Narrador",
+    "genero": "Ciencia ficción",
+    "estado": "Completada",
+    "capitulos": 198,
+    "descripcion": "",
+    "sinopsis": "[Este es un cuaderno para registrar historias extrañas][Escribir cualquier palabra en el cuaderno firmará un contrato con el cuaderno][El contrato no dejará de ser válido a menos que el contratista muera][Después de firmar el contrato, puede usar cualquier bolígrafo para escribir historias extrañas en el cuaderno, y las historias extrañas que escriba se harán realidad][Solo hay un precio para firmar el contrato, y ese es toda la vida futura del contratista] Un cuaderno misterioso, una historia misteriosa y el deseo humano de explorar lo desconocido siempre serán la mejor ayuda para la propagación de cosas extrañas historias...",
+    "cover": "img/covers/perfilid39.png",
+    "banner": "img/banners/bannerid39.png",
+    "patreon": "https://www.patreon.com/collection/2340808?view=expanded",
+    "fecha": "2026-08-22",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Transmigración", "Acción", "Horror", "Misterio", "Ciencia Ficción"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
