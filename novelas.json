@@ -646,6 +646,23 @@
     "adulto": false,
     "etiquetas": ["Transmigración", "Acción", "Horror", "Misterio", "Ciencia Ficción"]
   },
+      {
+    "id": 40,
+    "titulo": "Un Imbécil Ladrón de Novias",
+    "autor": "El Espía Narrador",
+    "genero": "Romance",
+    "estado": "En emisión",
+    "capitulos": 1000,
+    "descripcion": "",
+    "sinopsis": "Onoda Ruki es simplemente un estudiante de secundaria normal y corriente. Se esforzó por ser el compañero de clase A que no es importante para la historia.  A pesar de ser el compañero de clase A, Onoda tiene un deseo secreto que siempre tuvo desde joven y que era robarle a todas y cada una de las chicas a su chico.  Únase a él cuando entró en sus días de escuela secundaria mientras conquistaba y robaba a todas las chicas que veía. Y en el camino, el crecimiento de su carácter y de quienes lo rodean.",
+    "cover": "img/covers/perfilid40.png",
+    "banner": "img/banners/bannerid40.png",
+    "patreon": "https://www.patreon.com/collection/2345798?view=expanded",
+    "fecha": "2026-08-25",
+    "destacada": false,
+    "adulto": true,
+    "etiquetas": ["Novela de R-18", "Romance", "Harem", "Vida Escolar"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
