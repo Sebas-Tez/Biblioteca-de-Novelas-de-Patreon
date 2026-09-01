@@ -663,6 +663,23 @@
     "adulto": true,
     "etiquetas": ["Novela de R-18", "Romance", "Harem", "Vida Escolar"]
   },
+      {
+    "id": 43,
+    "titulo": "Villano del Juego",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "En emisión",
+    "capitulos": 800,
+    "descripcion": "",
+    "sinopsis": "Reencarnación en un juego como antagonista principal.  Podría ser una novela en sí, pero eso fue en lo que me arrastré. En el famoso y exitoso juego [Princess And Dragon]  Como si mi vida no fuera lo suficientemente mala, un bastardo me trajo a ese violento y violento juego de simulación de citas y al cuerpo del peor villano y [el principal antagonista Edward Falkrona].  Si quiero sobrevivir, tengo que volverme fuerte.  Si quiero ser fuerte, tengo que unirme a la Academia y al unirme a la Academia, conoceré a estos chicos...  Sí, obviamente estoy hablando del protagonista, las heroínas principales, la villana y todos los villanos.  ¿Estoy destinado a ver a ese protagonista construir su harén frente a mi?",
+    "cover": "img/covers/perfilid43.png",
+    "banner": "img/banners/bannerid43.png",
+    "patreon": "https://www.patreon.com/collection/2349482?view=expanded",
+    "fecha": "2026-08-31",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Fantasía", "Acción", "Reencarnación", "Romance Harem"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
