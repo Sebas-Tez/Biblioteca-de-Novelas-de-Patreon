@@ -697,6 +697,23 @@
     "adulto": false,
     "etiquetas": ["Fantasía", "Acción", "Reencarnación", "Romance Harem"]
   },
+      {
+    "id": 45,
+    "titulo": "COTE: Control Mental",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "En emisión",
+    "capitulos": 8,
+    "descripcion": "",
+    "sinopsis": "¿Qué pasaría si un chico tuviera la capacidad de controlar todo lo que quisiera?  Masaya, un personaje secundario de la clase B, obtiene este poder. Ahora la pregunta es: ¿qué hará con él? La respuesta es más que obvia.",
+    "cover": "img/covers/perfilid45.png",
+    "banner": "img/banners/bannerid45.png",
+    "patreon": "https://www.patreon.com/collection/2356579?view=expanded",
+    "fecha": "2026-08-31",
+    "destacada": false,
+    "adulto": true,
+    "etiquetas": ["R-18", "Fan Fic"]
+  },
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
