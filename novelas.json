@@ -664,6 +664,23 @@
     "etiquetas": ["Novela de R-18", "Romance", "Harem", "Vida Escolar"]
   },
       {
+    "id": 41,
+    "titulo": "Codicia",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "Completada",
+    "capitulos": 2663,
+    "descripcion": "",
+    "sinopsis": "Se dice que no deberías conocer a tus héroes. Gehaldirah, un alto elfo de linaje real, no tuvo que encontrarse con el señor del reino del Alto Cielo antes de desilusionarse.   Su admiración por el modelo de la raza de los altos elfos se convirtió en odio cuando obtuvo un conocimiento condenatorio sobre por qué los demonios seguían atacando su hogar y saqueando el árbol sagrado de la vida. Su odio por el señor del reino se convirtió en odio a sí mismo por su debilidad y mediocridad.   Gehaldirah tuvo un momento de introspección. No está al final de la escalera en esta jerarquía basada en la fuerza. Es un rey de la ley, pero aparentemente eso no es suficiente para garantizar tu destino. Su fuerza también es mediocre porque se la concedió debido a su línea de sangre.   Decidió que tenía que cambiarse a sí mismo. Tiene que mejorar. Él ideó un plan que es en parte genio y en parte avaricia. Su plan de reencarnación lo llevó a la prueba del cielo que ocurre en cada ciclo de origen. Necesitaba la esencia de Origin, por lo que participó en la prueba.   Obtuvo más de lo que quería del juicio. Su plan de reencarnación sería un éxito después de algunos ajustes. Pero ahora tiene un objetivo diferente. No apuntará sólo al señor del reino. El señor del reino tiene el control del Reino del Alto Cielo. Eso ya no es suficiente para Geraldirah.   Se volvió más codicioso. Tiene la vista puesta en los que mueven y agitan el Universo del Vacío. Sólo el poder de subvertir la voluntad de los Dioses del Mundo será suficiente. Entonces se ideó el plan para crear LEGION, el organismo definitivo. Si una persona no puede lograr algo, ¿qué pasa con una multitud de ellas?   Su viaje no será fácil. Tendrá que vencer a los Celestiales y su Celestial Supremo, los Dioses y sus Dioses Reyes, los Reyes Demonio y sus Dioses Demonio. El Universo Vacío está lleno de obstáculos que nada le gustará más que poner fin a su camino. No es que lo odien. Se opondrán a él simplemente porque se acerca la era de la conquista. No hay amigos en la era de la conquista. Es cada uno por sí mismo.",
+    "cover": "img/covers/perfilid41.png",
+    "banner": "img/banners/bannerid41.png",
+    "patreon": "https://www.patreon.com/collection/2358588?view=expanded",
+    "fecha": "2026-09-01",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Fantasía", "Reencarnación", "Acción", "Aventura"]
+  },
+      {
     "id": 43,
     "titulo": "Villano del Juego",
     "autor": "El Espía Narrador",
