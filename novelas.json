@@ -681,6 +681,23 @@
     "etiquetas": ["Fantasía", "Reencarnación", "Acción", "Aventura"]
   },
       {
+    "id": 42,
+    "titulo": "Superare al Protagonista",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "Completada",
+    "capitulos": 1114,
+    "descripcion": "",
+    "sinopsis": "Dije ser mejor que el MC. Una entidad Eldritch decidió poner a prueba mi afirmación y me reencarnó en el mundo de la novela que leí. Pero no estoy solo. ¿Hay otros cinco reencarnados?  ¡Espera, espera, espera! ¿Por qué el MC es ahora un regresor? ¡Eso no era parte del guión!",
+    "cover": "img/covers/perfil42.png",
+    "banner": "img/banners/banner42.png",
+    "patreon": "https://www.patreon.com/collection/2364126?view=expanded",
+    "fecha": "2026-09-01",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Fantasía", "Orienta", "Adulto", "Acción", "Reencarnación"]
+  },
+      {
     "id": 43,
     "titulo": "Villano del Juego",
     "autor": "El Espía Narrador",
