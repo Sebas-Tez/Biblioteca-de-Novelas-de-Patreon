@@ -715,6 +715,23 @@
     "etiquetas": ["Fantasía", "Acción", "Reencarnación", "Romance Harem"]
   },
       {
+    "id": 44,
+    "titulo": "Mi Avatar es el Jefe Definitivo",
+    "autor": "El Espía Narrador",
+    "genero": "Fantasía",
+    "estado": "Completada",
+    "capitulos": 884,
+    "descripcion": "",
+    "sinopsis": "Después de vivir una vida mundana durante más de una década, una noche, Ji Minghuan de repente despertó una habilidad única para \"crear personajes de juegos en el mundo real\", y cada personaje venía con su propia misión principal y un sistema de árbol de habilidades especial.  Desde entonces, no pudo detenerse. Siguió creando nuevos personajes en el mundo real, desarrollando árboles de habilidades y cultivando sistemas de personajes... todo lo que necesitaba hacer era mejorar la reputación del personaje para fortalecer sus habilidades. Así, empezó a causar problemas de todas las formas posibles para llamar la atención, provocando el caos como un palo en el mundo de los superhéroes y supervillanos.  Cuando recuperó el sentido, Ji Minghuan estaba sentado en la luna, contemplando el devastado planeta azul, con un grupo de personajes del juego al máximo parados detrás de él. No pudo evitar exclamar inocentemente:  \"¡Realmente no tenía la intención de destruir el mundo al principio!\"",
+    "cover": "img/covers/perfilid44.png",
+    "banner": "img/banners/bannerid44.png",
+    "patreon": "https://www.patreon.com/collection/2371290?view=expanded",
+    "fecha": "2026-08-31",
+    "destacada": false,
+    "adulto": false,
+    "etiquetas": ["Fantasía", "Acción", "Sobrenatural"]
+  },
+      {
     "id": 45,
     "titulo": "COTE: Control Mental",
     "autor": "El Espía Narrador",
@@ -731,6 +748,7 @@
     "adulto": true,
     "etiquetas": ["R-18", "Fan Fic"]
   },
+    
     {
     "id": 2,
     "titulo": "El viaje del hechicero",
